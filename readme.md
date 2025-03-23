@@ -1,26 +1,20 @@
 # Astro starter template
 
 ```sh
-pnpm create astro@latest --template ndinata/astro-template
-```
-
-Basic Astro 5 project template with TS, ESLint, and Prettier set up out-of-the-box.
-
-## Template variations
-
-### Tailwind CSS
-
-A version of the template with [Tailwind CSS](https://tailwindcss.com) set up
-out-of-the-box is also available via the [`with-tailwindcss` branch](https://github.com/ndinata/astro-template/tree/with-tailwindcss).
-
-```sh
 pnpm create astro@latest --template ndinata/astro-template#with-tailwindcss
 ```
+
+This is the version of the [`ndinata/astro-template`](https://github.com/ndinata/astro-template)
+starter project with additional [Tailwind CSS](https://tailwindcss.com) setup
+out-of-the-box.
 
 ## Project structure
 
 The project structure is similar to that of a default basic Astro project, but
 with the extra ESLint and Prettier config files.
+
+`./src/styles/global.css` is the main CSS entrypoint of the site and is imported
+by the base `src/layouts/Layout.astro` file.
 
 To learn more about the folder structure of an Astro project, refer to
 [Astro's guide on project structure](https://docs.astro.build/en/basics/project-structure/).
