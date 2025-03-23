@@ -6,6 +6,17 @@ pnpm create astro@latest --template ndinata/astro-template
 
 Basic Astro 5 project template with TS, ESLint, and Prettier set up out-of-the-box.
 
+## Template variations
+
+### Tailwind CSS
+
+A version of the template with [Tailwind CSS](https://tailwindcss.com) set up
+out-of-the-box is also available via the [`with-tailwindcss` branch](https://github.com/ndinata/astro-template/tree/with-tailwindcss).
+
+```sh
+pnpm create astro@latest --template ndinata/astro-template#with-tailwindcss
+```
+
 ## Project structure
 
 The project structure is similar to that of a default basic Astro project, but
