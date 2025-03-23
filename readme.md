@@ -1,48 +1,33 @@
-# Astro Starter Kit: Basics
+# Astro starter template
 
 ```sh
-pnpm create astro@latest -- --template basics
+pnpm create astro@latest --template ndinata/astro-template
 ```
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+Basic Astro 5 project template with TS, ESLint, and Prettier set up out-of-the-box.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Project structure
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+The project structure is similar to that of a default basic Astro project, but
+with the extra ESLint and Prettier config files.
 
-## 🚀 Project Structure
+To learn more about the folder structure of an Astro project, refer to
+[Astro's guide on project structure](https://docs.astro.build/en/basics/project-structure/).
 
-Inside of your Astro project, you'll see the following folders and files:
+## Commands
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+All commands are run from the root of the project:
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+| Command          | Action                                           |
+| :--------------- | :----------------------------------------------- |
+| `pnpm install`   | Installs dependencies                            |
+| `pnpm dev`       | Starts local dev server at `localhost:4321`      |
+| `pnpm build`     | Build your production site to `./dist/`          |
+| `pnpm preview`   | Preview your build locally, before deploying     |
+| `pnpm lint`      | Runs `eslint` on `./src/`                        |
+| `pnpm fmt-check` | Runs `prettier --check` on the project root      |
+| `pnpm astro ...` | Run CLI commands like `astro add`, `astro check` |
 
-## 🧞 Commands
+## Learn more
 
-All commands are run from the root of the project, from a terminal:
-
-| Command                | Action                                           |
-| :--------------------- | :----------------------------------------------- |
-| `pnpm install`         | Installs dependencies                            |
-| `pnpm dev`             | Starts local dev server at `localhost:4321`      |
-| `pnpm build`           | Build your production site to `./dist/`          |
-| `pnpm preview`         | Preview your build locally, before deploying     |
-| `pnpm astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `pnpm astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Feel free to check [Astro's documentation](https://docs.astro.build).
